@@ -3,6 +3,9 @@ name: First Workflow
 
 # Trigger event
 on:
+    push:
+        branches:
+            - main 
   workflow_dispatch:
 
 jobs:
