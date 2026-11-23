@@ -3,7 +3,7 @@ name: First Workflow
 #set trigger event
 on:
     push:
-        -main
+        - main
 
 jobs:
     print-message:
