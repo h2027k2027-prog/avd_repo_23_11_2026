@@ -1,11 +1,11 @@
 # Workflow name
 name: First Workflow
 
-# Trigger event
+# Trigger events
 on:
-    push:
-        branches:
-            - main 
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
