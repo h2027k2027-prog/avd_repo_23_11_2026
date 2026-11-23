@@ -3,9 +3,7 @@ name: First Workflow
 
 # Trigger event
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   print-message:
@@ -19,3 +17,4 @@ jobs:
       # Step 2
       - name: Print second welcome message
         run: echo 'this is my second step'
+        shell: bash
